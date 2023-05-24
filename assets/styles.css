@@ -25,6 +25,7 @@ html, body{
 
 .advice-text{
 	position: absolute;
+	margin-top: 1.5rem;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -47,10 +48,6 @@ html, body{
 .fa-play{
 	font-size: 2rem;
 	color: #B0A4A4;	
-}
-
-.fa-play:hover{
-	color: black;
 }
 
 .start-button{
@@ -129,14 +126,20 @@ html, body{
 	}	
 }
 
+@media screen and (max-width: 721px){
+	.text-box-font{
+		font-size: 1.1rem;
+	}
+}
+
 @media screen and (min-width: 1000px){
 	.text-box-font{
 		font-size: 1.5rem;
 	}	
 }
 
-@media screen and (max-width: 353px){
+@media screen and (max-width: 502px){
 	.text-box-font{
-		font-size: 0.8rem;
+		font-size: 0.85rem;
 	}	
 }
